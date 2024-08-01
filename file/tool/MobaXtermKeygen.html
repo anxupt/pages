@@ -113,19 +113,19 @@
                             <div class="pure-control-group pure-u-1">
                                 <label for="userName">用户名：</label>
                                 <my-input :idattr="'userName'" :validation="'^[a-zA-Z]+$'" :valueattr="userName"
-                                    :validationtips="'只能使用字母'" :placeholderattr="'示例 defaultUser'" @set-data="setUserName">
+                                    :validationtips="'只能使用字母'" :placeholderattr="'示例 admin'" @set-data="setUserName">
                                 </my-input>
                             </div>
                             <div class="pure-control-group pure-u-1">
                                 <label for="versionName">版本号：</label>
                                 <my-input :idattr="'versionName'" :validation="'^[1-9][0-9]*\\.?\\d{0,1}$'"
                                     :validationtips="'小数且小数点后只能有1位'" :valueattr="versionName"
-                                    :placeholderattr="'示例 21.0'" @set-data="setVersionName"></my-input>
+                                    :placeholderattr="'示例 24.2'" @set-data="setVersionName"></my-input>
                             </div>
                             <div class="pure-control-group pure-u-1">
                                 <label for="userNum">用户数：</label>
                                 <my-input :idattr="'userNum'" :validation="'^[1-9]+\\d*$'" :valueattr="userNum"
-                                    :placeholderattr="'示例 1'" :validationtips="'数字且最小值为1'" @set-data="setUserNum">
+                                    :placeholderattr="'示例 100'" :validationtips="'数字且最小值为1'" @set-data="setUserNum">
                                 </my-input>
                             </div>
                             <div class="pure-controls pure-u-1">
